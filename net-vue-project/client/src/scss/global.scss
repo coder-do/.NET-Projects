@@ -1,0 +1,30 @@
+$solar-blue: #2273db;
+$solar-red: #cc3020;
+$solar-green: #22a885;
+$solar-yellow: #ffbd59;
+
+$menu-width: 240px;
+
+body {
+  margin: auto;
+  padding: 0;
+}
+
+$rem-to-vh: 1.6rem;
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+select,
+input {
+  width: 100%;
+  height: 2.3rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.1rem;
+  line-height: 1.3rem;
+  padding: 0.2rem 0;
+  color: #555;
+}

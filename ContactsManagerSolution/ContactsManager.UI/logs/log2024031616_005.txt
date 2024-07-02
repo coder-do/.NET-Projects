@@ -1,0 +1,3 @@
+2024-03-16 16:53:21.261 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-16 16:53:21.269 +04:00 [INF] Hosting environment: Development
+2024-03-16 16:53:21.290 +04:00 [INF] Content root path: C:\C# Udemy\ContactsManagerSolution\ContactsManager.UI\

@@ -1,0 +1,94 @@
+2024-03-18 17:06:41.506 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 17:06:41.515 +04:00 [INF] Hosting environment: Development
+2024-03-18 17:06:41.516 +04:00 [INF] Content root path: C:\C# Udemy\ContactsManagerSolution\ContactsManager.UI\
+2024-03-18 17:17:35.750 +04:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 17:17:35.944 +04:00 [INF] Now listening on: https://localhost:5095
+2024-03-18 17:17:36.349 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5095/ - -
+2024-03-18 17:17:36.394 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+2024-03-18 17:17:36.652 +04:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2024-03-18 17:17:36.693 +04:00 [INF] Route matched with {action = "Index", controller = "Persons", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManager.UI).
+2024-03-18 17:17:36.698 +04:00 [INF] Antiforgery token validation failed. The required antiforgery header value "RequestVerificationToken" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery header value "RequestVerificationToken" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2024-03-18 17:17:36.702 +04:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2024-03-18 17:17:36.710 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2024-03-18 17:17:36.720 +04:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI) in 19.9199ms
+2024-03-18 17:17:36.722 +04:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2024-03-18 17:17:36.723 +04:00 [INF] Response:
+StatusCode: 400
+2024-03-18 17:17:36.726 +04:00 [INF] HTTP GET / responded 400 in 333.5121 ms
+2024-03-18 17:17:36.742 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5095/ - - - 400 0 - 396.4745ms
+2024-03-18 17:17:39.410 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5095/ - -
+2024-03-18 17:17:39.412 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+2024-03-18 17:17:39.433 +04:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2024-03-18 17:17:39.437 +04:00 [INF] Route matched with {action = "Index", controller = "Persons", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManager.UI).
+2024-03-18 17:17:39.439 +04:00 [INF] Antiforgery token validation failed. The required antiforgery cookie ".AspNetCore.Antiforgery.DHMMhKzW2yI" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery cookie ".AspNetCore.Antiforgery.DHMMhKzW2yI" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2024-03-18 17:17:39.441 +04:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2024-03-18 17:17:39.442 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2024-03-18 17:17:39.442 +04:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI) in 3.4262ms
+2024-03-18 17:17:39.443 +04:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2024-03-18 17:17:39.444 +04:00 [INF] Response:
+StatusCode: 400
+2024-03-18 17:17:39.445 +04:00 [INF] HTTP GET / responded 400 in 32.1946 ms
+2024-03-18 17:17:39.446 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5095/ - - - 400 0 - 35.7277ms
+2024-03-18 17:17:39.977 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5095/ - -
+2024-03-18 17:17:39.979 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+2024-03-18 17:17:39.992 +04:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2024-03-18 17:17:39.993 +04:00 [INF] Route matched with {action = "Index", controller = "Persons", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManager.UI).
+2024-03-18 17:17:39.995 +04:00 [INF] Antiforgery token validation failed. The required antiforgery cookie ".AspNetCore.Antiforgery.DHMMhKzW2yI" is not present.
+Microsoft.AspNetCore.Antiforgery.AntiforgeryValidationException: The required antiforgery cookie ".AspNetCore.Antiforgery.DHMMhKzW2yI" is not present.
+   at Microsoft.AspNetCore.Antiforgery.DefaultAntiforgery.ValidateRequestAsync(HttpContext httpContext)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter.OnAuthorizationAsync(AuthorizationFilterContext context)
+2024-03-18 17:17:39.997 +04:00 [INF] Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.ValidateAntiforgeryTokenAuthorizationFilter'.
+2024-03-18 17:17:39.998 +04:00 [INF] Executing StatusCodeResult, setting HTTP status code 400
+2024-03-18 17:17:39.998 +04:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI) in 3.7085ms
+2024-03-18 17:17:39.999 +04:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2024-03-18 17:17:40.001 +04:00 [INF] Response:
+StatusCode: 400
+2024-03-18 17:17:40.002 +04:00 [INF] HTTP GET / responded 400 in 23.0696 ms
+2024-03-18 17:17:40.004 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5095/ - - - 400 0 - 26.5259ms
+2024-03-18 17:17:50.544 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5095/Account/Login - -
+2024-03-18 17:17:50.546 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+2024-03-18 17:17:50.551 +04:00 [INF] Authorization failed. These requirements were not met:
+Handler assertion should evaluate to true.
+2024-03-18 17:17:50.556 +04:00 [INF] AuthenticationScheme: Identity.Application was forbidden.
+2024-03-18 17:17:50.557 +04:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:5095/Account/AccessDenied?ReturnUrl=%2FAccount%2FLogin
+2024-03-18 17:17:50.558 +04:00 [INF] HTTP GET /Account/Login responded 302 in 11.9742 ms
+2024-03-18 17:17:50.559 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5095/Account/Login - - - 302 0 - 14.8043ms
+2024-03-18 17:17:50.571 +04:00 [INF] Request starting HTTP/2 GET https://localhost:5095/Account/AccessDenied?ReturnUrl=%2FAccount%2FLogin - -
+2024-03-18 17:17:50.572 +04:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/AccessDenied
+2024-03-18 17:17:50.575 +04:00 [INF] Response:
+StatusCode: 404
+2024-03-18 17:17:50.576 +04:00 [INF] HTTP GET /Account/AccessDenied responded 404 in 3.5705 ms
+2024-03-18 17:17:50.577 +04:00 [INF] Request finished HTTP/2 GET https://localhost:5095/Account/AccessDenied?ReturnUrl=%2FAccount%2FLogin - - - 404 0 - 5.8695ms
